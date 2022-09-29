@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+    include : test
+  messages:
+    basename: messages/messages, messages/validation
+logging.level:
+  org.hibernate.SQL: debug

@@ -1,0 +1,2 @@
+insert into users(email, passwd, last_login_at) values ('test1@test.com', 'test1', '2022-09-27 15:14:57.287458');
+insert into users(email, passwd, last_login_at) values ('test2@test.com', 'test2', '2022-09-27 15:14:57.287458');
