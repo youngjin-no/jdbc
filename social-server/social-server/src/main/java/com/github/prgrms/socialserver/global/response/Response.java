@@ -3,9 +3,6 @@ package com.github.prgrms.socialserver.global.response;
 import static com.github.prgrms.socialserver.global.response.Response.Result.FAIL;
 import static com.github.prgrms.socialserver.global.response.Response.Result.SUCCESS;
 
-/**
- *  이시안님 코드를 참조했습니다
- */
 public class Response<T, R> {
     private final Result result;
     private final T data;
